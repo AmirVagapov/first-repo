@@ -1,5 +1,7 @@
 package java_level_two.lesson_seven;
 
+import java.awt.*;
+
 /**
  * Created by Tom on 19.09.2017.
  */
@@ -30,4 +32,12 @@ public interface IConstants {
     String WRONG_USERNAME = "This username is already registered.";
     String CREATE = "create";
     String NEW_CONNECT = "Press 'New connect'";
+
+    int POS_X = 500;
+    int POS_Y = 200;
+    int HEIGHT_WINDOW = 500;
+    int WIDTH_WINDOW = 450;
+    Font font = new Font("Times new roman", Font.BOLD, 13);
+    String YOU = "You: ";
+    String AUTH_INVITATION = "Press the button \"Authorized/ Create user\"";
 }
